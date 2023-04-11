@@ -1,0 +1,10 @@
+Kept all PH sequences from largest subB monophyletic clade, inlcuding those from LANL db.
+	- Were PH seqs from LANL also retained in the AE analysis?
+	  = ...YES APPARENTLY WE DID THIS
+
+
+If calc is not mistaken, from PS-SS MLE ucld is overwhelmingly more supported:
+-11776.589158950239--11815.829154097177=39.2399951469
+^the ucld tmrca is also what makes more sense at ~20 years since youngest tip
+	^double-check ps-ss of AE too, maybe this can resolve problem with having different origin values too
+		- no the problem with origin is between replicates not between clock models

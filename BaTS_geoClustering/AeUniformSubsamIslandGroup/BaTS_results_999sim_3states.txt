@@ -1,0 +1,21 @@
+Performing single analysis.
+        File: ph_only_monoclade.down1k.edited.trees
+        Null replicates: 999
+        Maximum number of discrete character states: 3
+
+analysing... 1000 trees, with 3 states
+analysing observed (using obs state data)
+1000 950
+1000 950
+1000 950
+1000 950
+1000 950
+Statistic       observed mean   lower 95% CI    upper 95% CU    null mean       lower 95% CI    upper 95% CI    significance
+AI      9.144291877746582       7.818544864654541       10.454514503479004      14.008848190307617      12.860556602478027      15.08405876159668       0.0
+PS      54.354000091552734      50.0    58.0    72.1453628540039        69.33000183105469       74.41899871826172      0.0
+MC (state 0)    2.555000066757202       2.0     3.0     1.6591777801513672      1.2139999866485596      2.0829999446868896      0.0020020008087158203
+MC (state 1)    13.388999938964844      11.0    17.0    7.918159008026123       6.439000129699707       10.286999702453613      0.014014005661010742
+MC (state 2)    4.747000217437744       4.0     6.0     2.30788254737854        1.9559999704360962      3.046999931335449       0.0010010004043579102
+done
+
+Done.
