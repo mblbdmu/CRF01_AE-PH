@@ -17,6 +17,8 @@
   - significance test for the clustering of sequences by geographic location using BATS
 - BNosubsamBdskyIslandgrpRelaxed200M
   - estimating the <i>R<sub>e<sub></i> of the largest monophyletic Subtype B clade in the Philippines
+- BNosubsamBdskyIslandgrpRelaxedBurfixed300M
+  - estimating the <i>R<sub>e<sub></i> of the largest monophyletic Subtype B clade in the Philippines with a fixed becomeUninfectious rate
 - BNosubsamBspIslandgrpRelaxed200MLogcomb5reps
   - estimating the <i>N<sub>e<sub></i> of the largest monophyletic Subtype B in the Philippines
 - BNosubsamPsSsIslandgrpStrictVsRelaxed
