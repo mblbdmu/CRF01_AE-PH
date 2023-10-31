@@ -1,6 +1,0 @@
-Levels                  3
-Observed_transitions   96
-Null_model_median     115
-Null_model_min        109
-Null_model_max        117
-p.value                 0
