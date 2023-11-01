@@ -1,25 +1,19 @@
 # BEAST XML and scripts used in the reconstruction of the phylodynamic history and geographic spread of the CRF01_AE-predominant HIV-1 epidemic in the Philippines from PR/RT sequences sampled from 2008-2018
 
-## Below is the description of each folder:
-- AeManualTmrcaPsSsStrictVsRelaxed
-  - best-fit clock model comparison using path sampling stepping stone for the TMRCA analysis of CRF01_AE
-- AeManualTmrcaRelaxed10MLogcomb5reps
-  - estimating the TMRCA of the largest monophyletic CRF01_AE clade in the Philippines
-- AeSubsamaltBdskyIslandgrpIter3StrictBurfixed300M
-  - estimating the <i>R<sub>e<sub></i> of the largest monophyletic CRF01_AE clade in the Philippines with a fixed becomeUninfectious rate
-- AeSubsamaltBspIslandgrpIter3Strict200M
-  - estimating the <i>N<sub>e<sub></i> of the largest monophyletic CRF01_AE clade in the Philippines
-- AeSubsamaltPhylogeoIslandgrpIter3Strict
-  - estimating the migration rates and geographical spread of the CRF01_AE strain
-- AeSubsamaltPsSsIslandgrpStrictVsRelaxed
-  - best-fit clock model comparison using path sampling stepping stone for phylodynamics (<i>N<sub>e<sub></i> and <i>R<sub>e<sub></i>) and phylogeography of the CRF01_AE strain
-- BaTS_geoClustering
-  - significance test for the clustering of sequences by geographic location using BATS
-- BNosubsamBdskyIslandgrpRelaxed200M
-  - estimating the <i>R<sub>e<sub></i> of the largest monophyletic Subtype B clade in the Philippines
-- BNosubsamBdskyIslandgrpRelaxedBurfixed300M
-  - estimating the <i>R<sub>e<sub></i> of the largest monophyletic Subtype B clade in the Philippines with a fixed becomeUninfectious rate
-- BNosubsamBspIslandgrpRelaxed200MLogcomb5reps
-  - estimating the <i>N<sub>e<sub></i> of the largest monophyletic Subtype B in the Philippines
-- BNosubsamPsSsIslandgrpStrictVsRelaxed
-  - best-fit clock model comparison using path sampling stepping stone for the phylodynamics (<i>N<sub>e<sub></i> and <i>R<sub>e<sub></i>) and phylogeography of Subtype B
+## Below is the description of each file and folder:
+- fullAeBspTmrca.xml
+  - Phylodynamic analysis to estimate CRF01_AE tMRCA and <i>N<sub>e<sub></i> with BSP on full dataset of large CRF01_AE cluster 
+- fullAeBdsky.xml
+  - Phylodynamic analysis to estimate CRF01_AE <i>R<sub>e<sub></i> with BDSKY on full dataset of large CRF01_AE cluster
+- fullAeGeo.xml
+  - Phylogeographic analysis to estimate CRF01_AE spatiotemporal spread with discrete trait substitution model on full dataset of large CRF01_AE cluster with both collection date and location metadata
+- fullBBspTmrca.xml
+  - Phylodynamic analysis to estimate subtype B tMRCA and <i>N<sub>e<sub></i> with BSP on full dataset of large subtype B cluster
+- fullBBdsky.xml
+  - Phylodynamic analysis to estimate subtype B <i>R<sub>e<sub></i> with BDSKY on full dataset of large subtype B cluster
+- AeSubsamples
+  - Phylodynamic analysis to estimate CRF01_AE <i>R<sub>e<sub></i> with BDSKY on two distinct uniform subsamples of the large CRF01_AE cluster
+- GeoSensitivityAnalysis
+  - Phylogeographic analysis on ten different subsamples each with equal number of CRF01_AE sequences per deme 
+- PsSs
+  - Best-fit molecular clock model comparison using path sampling / stepping stone for CRF01_AE and subtype B datasets
