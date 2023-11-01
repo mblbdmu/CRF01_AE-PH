@@ -1,4 +1,4 @@
-# BEAST XML and scripts used in the reconstruction of the phylodynamic history and geographic spread of the CRF01_AE-predominant HIV-1 epidemic in the Philippines from PR/RT sequences sampled from 2008-2018
+# BEAST XML used in the reconstruction of the phylodynamic history and geographic spread of the CRF01_AE-predominant HIV-1 epidemic in the Philippines from PR/RT sequences sampled from 2008-2018
 
 ## Below is the description of each file and folder:
 - fullAeBspTmrca.xml
